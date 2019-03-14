@@ -1,0 +1,1 @@
+cmd_/home/aiganym/Documents/lab6/hello-1.ko := ld -r -m elf_x86_64 -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/aiganym/Documents/lab6/hello-1.ko /home/aiganym/Documents/lab6/hello-1.o /home/aiganym/Documents/lab6/hello-1.mod.o ;  true
