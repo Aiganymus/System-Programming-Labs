@@ -1,1 +1,0 @@
-cmd_/home/aiganym/Desktop/lab11/lab3.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds  --build-id  -o /home/aiganym/Desktop/lab11/lab3.ko /home/aiganym/Desktop/lab11/lab3.o /home/aiganym/Desktop/lab11/lab3.mod.o ;  true
