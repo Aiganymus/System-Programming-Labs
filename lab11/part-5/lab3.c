@@ -37,7 +37,7 @@ int thread_function(void *data) {
 
 int init_module(void) {
 	printk(KERN_INFO "Hello, %u\n", param);
-	my_cache = kmem_cache_create("my cache", sizeof(struct my_struct), 0, 0, NULL);
+	my_cache = kmem_cache_create("my cache", sizeof(struct my_struct), ARCH_MIN_TASKALIGN, 0, NULL);
 	if (my_cache)
 		printk(KERN_INFO "Cache is created!");
 	thread = kthread_run(thread_function, NULL, "myThread");
