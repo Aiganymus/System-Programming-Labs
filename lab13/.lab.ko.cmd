@@ -1,0 +1,1 @@
+cmd_/home/aiganym/Desktop/System-Programming-Labs/lab13/lab.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds  --build-id  -o /home/aiganym/Desktop/System-Programming-Labs/lab13/lab.ko /home/aiganym/Desktop/System-Programming-Labs/lab13/lab.o /home/aiganym/Desktop/System-Programming-Labs/lab13/lab.mod.o ;  true
